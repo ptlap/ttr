@@ -34,6 +34,16 @@ còn lại kết hợp trái. Chương trình không dùng `eval()`.
 Ví dụ: `(p -> q) <-> (~q -> ~p)` cho kết quả TRUE ở mọi dòng.
 Với `p -> q`, chỉ dòng p = TRUE, q = FALSE cho kết quả FALSE.
 
+### Biểu thức trong ảnh — copy để nhập
+
+Chạy `python bai1.py`, tại dòng `Nhập công thức:` dán biểu thức sau rồi nhấn Enter:
+
+```text
+((~Y & T) -> (Z | ~T)) <-> ((~X | ~Z) ^ (X & Y))
+```
+
+Có 4 biến X, Y, Z, T nên bảng chân lý có 16 dòng dữ liệu.
+
 ## Bài 2 — Tập hợp và xâu bit
 
 Tập vũ trụ theo tài liệu:
