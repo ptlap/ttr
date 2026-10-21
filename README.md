@@ -96,3 +96,23 @@ việc tìm và rút gọn công thức có thể chậm.
 ```bash
 python -m unittest discover -s tests -v
 ```
+
+## Code mẫu từ PDF
+
+Ba file mới chứa code mẫu trong tài liệu **PYTHON BUỔI 1.pdf**.
+Chỉ chỉnh thụt dòng và bỏ ký tự ngắt trang để Python chạy được;
+giữ nguyên nội dung và thuật toán mẫu. Ba file `bai1.py`, `bai2.py`,
+`bai3.py` ở trên vẫn được giữ nguyên.
+
+```bash
+python -m pip install -r requirements.txt
+python bai1_mau.py
+python bai2_mau.py
+python bai3_mau.py
+```
+
+Bài 3 mẫu có ví dụ nhập hệ số `11 -7 -147` và điều kiện đầu `384 -64 -963`.
+
+Lưu ý khi dùng bản mẫu: Bài 1 dùng `eval()` và thay ký hiệu bằng phép toán
+Python nên chỉ nhập công thức tin cậy; với công thức phức tạp, thứ tự phép toán
+có thể khác logic mệnh đề. Các file mẫu giữ nguyên hành vi trong tài liệu.
